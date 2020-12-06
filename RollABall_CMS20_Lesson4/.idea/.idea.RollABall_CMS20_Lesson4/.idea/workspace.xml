@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf430d52-2020-4185-991a-2aa461a72453" name="Default Changelist" comment="" />
+    <list default="true" id="bf430d52-2020-4185-991a-2aa461a72453" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Player.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Player.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,9 +45,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PositionReset.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformAttach.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EndTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EndGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -95,6 +100,7 @@
       <workItem from="1606896518105" duration="155000" />
       <workItem from="1607189191464" duration="33000" />
       <workItem from="1607189273559" duration="251000" />
+      <workItem from="1607268083702" duration="1293000" />
     </task>
     <servers />
   </component>
@@ -118,5 +124,11 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="327" y="95" width="672" height="678" key="search.everywhere.popup" timestamp="1607269542914">
+      <screen x="0" y="23" width="1280" height="751" />
+    </state>
+    <state x="327" y="95" width="672" height="678" key="search.everywhere.popup/0.23.1280.751/1280.23.1920.1057@0.23.1280.751" timestamp="1607269542914" />
   </component>
 </project>

@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -17,12 +18,16 @@ public class PlayerController : MonoBehaviour
     private int m_collectablesTotalCount, m_collectablesCounter; //everything we need to count the given collectables
 
     private Stopwatch m_stopwatch; //takes the time
+
+    public Text scoreText;
     
     private void Start()
     {
         m_playerRigidbody = GetComponent<Rigidbody>(); //get the rigidbody component
 
         m_collectablesTotalCount = m_collectablesCounter = GameObject.FindGameObjectsWithTag("Collectable").Length; //find all gameobjects in the scene which are tagged with "Collectable" and count them via Length property 
+
+        scoreText.text = "Score: " + m_collectablesTotalCount.ToString() + " / " + m_collectablesTotalCount.ToString();
         
         m_stopwatch = Stopwatch.StartNew(); //start the stopwatch
     }
@@ -50,6 +55,7 @@ public class PlayerController : MonoBehaviour
             other.gameObject.SetActive(false); //set the hit collectable inactive
 
             m_collectablesCounter--; //count down the remaining collectables
+            scoreText.text = m_collectablesCounter.ToString();
             if (m_collectablesCounter == 0) //have we found all collectables? if so we won!
             {
                 UnityEngine.Debug.Log("Congratulations. You successfully outrun the Enemies!");
