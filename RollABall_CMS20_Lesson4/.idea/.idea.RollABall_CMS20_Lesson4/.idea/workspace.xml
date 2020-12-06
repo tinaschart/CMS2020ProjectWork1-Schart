@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf430d52-2020-4185-991a-2aa461a72453" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/kisspng-trophy-football-gold-medal-clip-art-golden-cup-5abcaa162f3f91.4378085815223137501935.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/kisspng-trophy-football-gold-medal-clip-art-golden-cup-5abcaa162f3f91.4378085815223137501935.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Player.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Player.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +103,7 @@
       <workItem from="1607189191464" duration="33000" />
       <workItem from="1607189273559" duration="251000" />
       <workItem from="1607268083702" duration="1293000" />
+      <workItem from="1607271584708" duration="618000" />
     </task>
     <servers />
   </component>

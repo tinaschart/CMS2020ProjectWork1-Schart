@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     private Stopwatch m_stopwatch; //takes the time
 
     public Text scoreText;
+    public GameObject gameOverText;
     
     private void Start()
     {
@@ -59,10 +60,11 @@ public class PlayerController : MonoBehaviour
             if (m_collectablesCounter == 0) //have we found all collectables? if so we won!
             {
                 UnityEngine.Debug.Log("Congratulations. You successfully outrun the Enemies!");
+                gameOverText.SetActive(true);
+                StartCoroutine(waitALittleBit());
+                
                 UnityEngine.Debug.Log($"It took you {m_stopwatch.Elapsed} to find all {m_collectablesTotalCount} collectables.");
-#if UNITY_EDITOR //the following code is only included in the unity editor
-                UnityEditor.EditorApplication.ExitPlaymode();//exits the playmode
-#endif
+
             }
 
             else
@@ -72,10 +74,20 @@ public class PlayerController : MonoBehaviour
         }
         else if (other.gameObject.CompareTag("Enemy")) //has the other gameobject the tag "Enemy" / game over state
         {
-            UnityEngine.Debug.Log("Again!");
+            UnityEngine.Debug.Log("Game Over!");
+            gameOverText.SetActive(true);
+            
 #if UNITY_EDITOR
             UnityEditor.EditorApplication.ExitPlaymode();
 #endif
         }
+    }
+
+    public IEnumerator waitALittleBit()
+    {
+        yield return new WaitForSeconds(3);
+#if UNITY_EDITOR //the following code is only included in the unity editor
+        UnityEditor.EditorApplication.ExitPlaymode();//exits the playmode
+#endif
     }
 }
