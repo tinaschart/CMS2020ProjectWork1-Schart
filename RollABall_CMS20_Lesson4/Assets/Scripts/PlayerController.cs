@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
 
         m_collectablesTotalCount = m_collectablesCounter = GameObject.FindGameObjectsWithTag("Collectable").Length; //find all gameobjects in the scene which are tagged with "Collectable" and count them via Length property 
 
-        scoreText.text = "Score: " + m_collectablesTotalCount.ToString() + " / " + m_collectablesTotalCount.ToString();
+        scoreText.text = "collectables: " + m_collectablesTotalCount.ToString() + " / " + m_collectablesTotalCount.ToString();
         
         m_stopwatch = Stopwatch.StartNew(); //start the stopwatch
     }
