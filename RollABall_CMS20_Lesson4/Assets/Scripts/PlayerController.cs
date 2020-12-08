@@ -56,7 +56,7 @@ public class PlayerController : MonoBehaviour
             other.gameObject.SetActive(false); //set the hit collectable inactive
 
             m_collectablesCounter--; //count down the remaining collectables
-            scoreText.text = m_collectablesCounter.ToString();
+            scoreText.text = "collectables: " + m_collectablesCounter.ToString() + " / " + m_collectablesTotalCount.ToString();
             if (m_collectablesCounter == 0) //have we found all collectables? if so we won!
             {
                 UnityEngine.Debug.Log("Congratulations. You successfully outrun the Enemies!");
@@ -75,7 +75,7 @@ public class PlayerController : MonoBehaviour
         else if (other.gameObject.CompareTag("Enemy")) //has the other gameobject the tag "Enemy" / game over state
         {
             UnityEngine.Debug.Log("Game Over!");
-            gameOverText.SetActive(true);
+            //gameOverText.SetActive(true);
             
 #if UNITY_EDITOR
             UnityEditor.EditorApplication.ExitPlaymode();
@@ -83,9 +83,9 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public IEnumerator waitALittleBit()
+    private IEnumerator waitALittleBit()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(5);
 #if UNITY_EDITOR //the following code is only included in the unity editor
         UnityEditor.EditorApplication.ExitPlaymode();//exits the playmode
 #endif
