@@ -20,68 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf430d52-2020-4185-991a-2aa461a72453" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon Demo.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon Demo.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon Main Rig.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon Main Rig.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Attack 01.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Attack 01.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Attack 02.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Attack 02.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Die.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Die.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Idle.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Idle.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Jump W Root.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Jump W Root.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Run In Place.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Run In Place.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Run W Root.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Run W Root.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Take Damage.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Take Damage.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Walk In Place.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Walk In Place.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Walk W Root.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Walk W Root.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Demo Assets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Demo Assets/Boximon.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Demo Assets/Boximon.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Demo Assets/Ground.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Demo Assets/Ground.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Demo Assets/Ground.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Demo Assets/Ground.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/FBX/Boximon Cyclopes.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/FBX/Boximon Cyclopes.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Materials/Boximon Cyclopes.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Materials/Boximon Cyclopes.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Prefabs/Boximon Cyclopes.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Prefabs/Boximon Cyclopes.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/READ ME.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/READ ME/Meshtint Mega Toon Series Read Me .pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/READ ME/Meshtint Mega Toon Series Read Me .pdf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Textures/Boximon Cyclopes.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objekte/Meshtint Free Boximon Cyclopes Mega Toon Series/Textures/Boximon Cyclopes.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HeartsHealthSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HeartsHealthSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HeartsHealthVisual.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HeartsHealthVisual.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Herz leer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Herz leer.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Herz voll.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Herz voll.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/IceScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/IceScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HeartsHealthVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HeartsHealthVisual.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +107,7 @@
       <workItem from="1607427660290" duration="1208000" />
       <workItem from="1607464351910" duration="1226000" />
       <workItem from="1611046479398" duration="627000" />
-      <workItem from="1611136535898" duration="1874000" />
+      <workItem from="1611136535898" duration="2813000" />
     </task>
     <servers />
   </component>
