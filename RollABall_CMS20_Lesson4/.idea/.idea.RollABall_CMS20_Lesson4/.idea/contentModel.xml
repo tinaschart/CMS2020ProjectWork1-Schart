@@ -9,8 +9,6 @@
           <e p="EndGame.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
-          <e p="HeartsHealthSystem.cs" t="Include" />
-          <e p="HeartsHealthVisual.cs" t="Include" />
           <e p="HelloWorld.cs" t="Include" />
           <e p="PatrollingEnemyController.cs" t="Include" />
           <e p="PlatformAttach.cs" t="Include" />

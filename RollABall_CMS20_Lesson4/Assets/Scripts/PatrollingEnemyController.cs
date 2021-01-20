@@ -16,4 +16,11 @@ public class PatrollingEnemyController : EnemyController
 
     return destination;
   }
+  private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("schuss"))
+        {
+            this.gameObject.SetActive(false);
+        }
+    }
 }

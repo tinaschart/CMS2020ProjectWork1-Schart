@@ -39,4 +39,11 @@ public class EnemyController : MonoBehaviour
         if(m_agent.remainingDistance < 0.5f) //if the agent is close to its set goal it targets a new one
             m_agent.SetDestination(GetNextDestination());
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("schuss"))
+        {
+            this.gameObject.SetActive(false);
+        }
+    }
 }
