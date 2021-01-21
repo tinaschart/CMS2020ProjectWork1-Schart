@@ -85,8 +85,8 @@ public class PlayerController : MonoBehaviour
     if (onGround)
         {
 
-            if (Input.GetButtonDown("Jump"))
-            //if (Keyboard.current.spaceKey.isPressed)
+            //if (Input.GetButtonDown("Jump"))
+            if (Keyboard.current.spaceKey.isPressed)
             {
                  m_playerRigidbody.velocity = new Vector3( m_playerRigidbody.velocity.x, 5f,  m_playerRigidbody.velocity.z);
                 onGround = false;
