@@ -32,6 +32,7 @@
           <e p="EnemyController.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="HelloWorld.cs" t="Include" />
+          <e p="LoadLevel.cs" t="Include" />
           <e p="PatrollingEnemyController.cs" t="Include" />
           <e p="PlatformAttach.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />

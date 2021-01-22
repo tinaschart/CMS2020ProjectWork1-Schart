@@ -9,7 +9,6 @@ TagManager:
   - Endpoint
   - schuss
   - boden
-  - Bottlehealth
   - StartPos
   layers:
   - Default
