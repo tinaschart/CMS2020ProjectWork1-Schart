@@ -130,6 +130,12 @@ public class PlayerController : MonoBehaviour
         if (lifes == 0){
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+        
+        else if (other.gameObject.CompareTag("Bottlehealth"))
+        {
+            lifes += 1;
+            other.gameObject.SetActive(false);
+        }
            // UnityEngine.Debug.Log("Game Over!");
             //gameOverText.SetActive(true);
             

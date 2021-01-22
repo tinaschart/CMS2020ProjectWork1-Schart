@@ -9,6 +9,7 @@ TagManager:
   - Endpoint
   - schuss
   - boden
+  - Bottlehealth
   layers:
   - Default
   - TransparentFX

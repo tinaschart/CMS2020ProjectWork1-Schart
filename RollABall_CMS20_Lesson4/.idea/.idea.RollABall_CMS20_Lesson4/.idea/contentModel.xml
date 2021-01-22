@@ -36,7 +36,6 @@
           <e p="PlatformAttach.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="PositionReset.cs" t="Include" />
-          <e p="Rotator.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
           <e p="2D" t="Include">
