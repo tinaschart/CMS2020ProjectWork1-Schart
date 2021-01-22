@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DesertScene.unity
     guid: 1f5fb034605d84e5c84ca5272e162b56
+  - enabled: 1
+    path: Assets/Scenes/Endscreen.unity
+    guid: 65c6fb099fa73496faec4d7ce737adf7
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 4f27aec86c39f41c7bb0c466c4ac8fae,
       type: 2}
