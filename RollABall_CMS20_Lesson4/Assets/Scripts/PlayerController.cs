@@ -11,6 +11,7 @@ using UnityEngine.SceneManagement;
  
 public class PlayerController : MonoBehaviour
 {
+    private GameObject[] players;
     [SerializeField] private float m_speed = 1f; //speed modifier
     public Camera TDcam;
     private Rigidbody m_playerRigidbody = null; //reference to the players rigidbody
@@ -18,7 +19,7 @@ public class PlayerController : MonoBehaviour
     public RawImage targetImage;
     private float m_movementX, m_movementY; //input vector components
     public Slider slider;
-      private float lifes;
+    private float lifes;
     public float maxLifes;
     private int m_collectablesTotalCount, m_collectablesCounter; //everything we need to count the given collectables
 
@@ -77,6 +78,7 @@ public class PlayerController : MonoBehaviour
         }
         transform.LookAt(new Vector3(transform.position.x + moveHorizontal, transform.position.y, transform.position.z + moveVertical));
     }
+    
     private void FixedUpdate()
     {
         Vector3 movement = new Vector3(m_movementX, 0f, m_movementY); //translate the 2d vector into a 3d vector
@@ -144,7 +146,8 @@ public class PlayerController : MonoBehaviour
 #endif*/
         }
     }
-public void OnCollisionEnter(Collision other)
+    
+    public void OnCollisionEnter(Collision other)
     {
         if (other.collider.gameObject.CompareTag("boden"))
         {

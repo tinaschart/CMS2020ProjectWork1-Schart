@@ -10,6 +10,7 @@ TagManager:
   - schuss
   - boden
   - Bottlehealth
+  - StartPos
   layers:
   - Default
   - TransparentFX

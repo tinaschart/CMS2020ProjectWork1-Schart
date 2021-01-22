@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf430d52-2020-4185-991a-2aa461a72453" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/DesertScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DesertScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/IceScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/IceScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +49,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformAttach.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EndTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EndGame.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -112,6 +114,8 @@
       <workItem from="1607464351910" duration="1226000" />
       <workItem from="1611240864640" duration="102000" />
       <workItem from="1611241144863" duration="102000" />
+      <workItem from="1611310978159" duration="876000" />
+      <workItem from="1611314352948" duration="3245000" />
     </task>
     <servers />
   </component>
