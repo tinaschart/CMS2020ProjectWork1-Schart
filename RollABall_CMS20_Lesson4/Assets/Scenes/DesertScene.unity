@@ -6219,7 +6219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07fa8f9ee1b8c6d48be3cef8d798928e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_leveLname: Menu
+  m_leveLname: Endscreen
 --- !u!1001 &510731596
 PrefabInstance:
   m_ObjectHideFlags: 0
