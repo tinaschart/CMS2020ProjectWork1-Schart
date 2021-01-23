@@ -8,6 +8,8 @@ public class LoadLevel : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
+           
             SceneManager.LoadScene(m_leveLname);
+           
     }
 }

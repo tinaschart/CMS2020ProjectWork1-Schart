@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     public                   RawImage     targetImage;
     private                  float        m_movementX, m_movementY; //input vector components
     public                   Slider       slider;
-    private                  float        lifes;
+    public                  int        lifes;
     public                   float        maxLifes;
     private                  int          m_collectablesTotalCount, m_collectablesCounter; //everything we need to count the given collectables
 
@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+        //DontDestroyOnLoad(gameObject);
         slider.maxValue   = maxLifes;
         lifes             = maxLifes;
         onGround          = true;
@@ -53,6 +54,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         slider.value = lifes;
 
 
@@ -105,7 +107,11 @@ public class PlayerController : MonoBehaviour
 
         transform.LookAt(new Vector3(transform.position.x + m_movementX, transform.position.y, transform.position.z + m_movementY));
     }
-
+void Awake()
+{
+    //Load the saved score (this value will be saved even if you restart the app)
+    lifes = PlayerPrefs.GetInt("Lifes");
+}
     private void OnTriggerEnter(Collider other) //executed when the player hits another collider (which is set to 'is trigger')
     {
         if (other.gameObject.CompareTag("Collectable")) //has the other gameobject the tag "Collectable"
@@ -130,14 +136,13 @@ public class PlayerController : MonoBehaviour
         }
         else if (other.gameObject.CompareTag("Enemy")) //has the other gameobject the tag "Enemy" / game over state
         {
-            Debug.Log("Leben -1");
             lifes -= 1;
             if (lifes == 0)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
 
-           
+            
             // UnityEngine.Debug.Log("Game Over!");
             //gameOverText.SetActive(true);
 
@@ -145,12 +150,18 @@ public class PlayerController : MonoBehaviour
                         UnityEditor.EditorApplication.ExitPlaymode();
             #endif*/
         }
-         else if (other.gameObject.CompareTag("life"))
-         {
-                Debug.Log("Leben +1");
+        else if (other.gameObject.CompareTag("life"))
+            {
+                if(lifes <=2)
+                {
                 lifes += 1;
                 other.gameObject.SetActive(false);
-         }
+                Debug.Log(lifes);
+                }
+                else{
+                  other.gameObject.SetActive(false);  
+                }
+            }
     }
 
     public void OnCollisionEnter(Collision other)

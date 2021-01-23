@@ -11,6 +11,9 @@ TagManager:
   - boden
   - Bottlehealth
   - StartPos
+  - Fire
+  - life
+  - ice
   layers:
   - Default
   - TransparentFX
