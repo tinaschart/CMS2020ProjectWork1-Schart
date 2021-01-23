@@ -39,6 +39,7 @@
       <change afterPath="$PROJECT_DIR$/Assets/TerrainData_b7e9cdca-6719-4923-bf97-e108bbd10a95.asset" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/TerrainData_b7e9cdca-6719-4923-bf97-e108bbd10a95.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/aerial_beach_01_diff_1k.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/aerial_beach_01_diff_1k.jpg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Objekte/InfinitaStudio - Mountains/Fbx/mountain_canyon_01.fbm.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Objekte/InfinitaStudio - Mountains/Fbx/mountain_canyon_02.fbm.meta" beforeDir="false" />
@@ -145,6 +146,7 @@
       <workItem from="1611332995907" duration="216000" />
       <workItem from="1611334496428" duration="377000" />
       <workItem from="1611399940651" duration="398000" />
+      <workItem from="1611406617819" duration="287000" />
     </task>
     <servers />
   </component>
