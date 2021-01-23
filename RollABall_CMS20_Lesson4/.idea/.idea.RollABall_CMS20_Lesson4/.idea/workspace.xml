@@ -19,40 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf430d52-2020-4185-991a-2aa461a72453" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/NewLayer 1.terrainlayer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/NewLayer 1.terrainlayer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/NewLayer 2.terrainlayer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/NewLayer 2.terrainlayer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Sand Beach.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Sand Beach.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/New Terrain Material.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/New Terrain Material.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/New Terrain.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enemy.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Enemy.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Main Camera.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Main Camera.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/schuss.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/schuss.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TerrainData_b7e9cdca-6719-4923-bf97-e108bbd10a95.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TerrainData_b7e9cdca-6719-4923-bf97-e108bbd10a95.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/aerial_beach_01_diff_1k.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/aerial_beach_01_diff_1k.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objekte/InfinitaStudio - Mountains/Fbx/mountain_canyon_01.fbm.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objekte/InfinitaStudio - Mountains/Fbx/mountain_canyon_02.fbm.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objekte/InfinitaStudio - Mountains/Fbx/mountain_canyon_03.fbm.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objekte/InfinitaStudio - Mountains/Fbx/mountain_canyon_04.fbm.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objekte/InfinitaStudio - Mountains/Fbx/mountain_canyon_05.fbm.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objekte/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objekte/New Terrain.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DesertScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DesertScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/IceScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/IceScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-    </list>
+    <list default="true" id="bf430d52-2020-4185-991a-2aa461a72453" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,6 +114,7 @@
       <workItem from="1611334496428" duration="377000" />
       <workItem from="1611399940651" duration="398000" />
       <workItem from="1611406617819" duration="287000" />
+      <workItem from="1611412169695" duration="263000" />
     </task>
     <servers />
   </component>

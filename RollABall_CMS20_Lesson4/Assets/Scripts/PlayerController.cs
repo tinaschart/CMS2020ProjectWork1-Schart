@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     public                   RawImage     targetImage;
     private                  float        m_movementX, m_movementY; //input vector components
     public                   Slider       slider;
-    public                  float        lifes;
+    public                   static           float        lifes;
     public                   float        maxLifes;
     private                  int          m_collectablesTotalCount, m_collectablesCounter; //everything we need to count the given collectables
 
@@ -26,9 +26,12 @@ public class PlayerController : MonoBehaviour
     public  GameObject schuss;      //schuss Object
     public  Text       scoreText;
     public  GameObject gameOverText;
+    private AudioSource Audio;
 
     private void Start()
     {
+          Audio = GetComponent<AudioSource>();
+       Audio.enabled = true;
         //DontDestroyOnLoad(gameObject);
         slider.maxValue   = maxLifes;
         lifes             = maxLifes;
@@ -75,6 +78,15 @@ public class PlayerController : MonoBehaviour
             obj                                    = Instantiate(schuss, transform.position, transform.rotation);
             obj.GetComponent<Rigidbody>().velocity = transform.forward * 9;
         }
+          if ((Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.UpArrow)) /*&& iceBool == true*/)
+        {
+            Audio.enabled = true;
+        }
+
+        else
+        {
+            Audio.enabled = false;
+        }
     }
 
     private void FixedUpdate()
@@ -93,7 +105,7 @@ public class PlayerController : MonoBehaviour
             // if (Keyboard.current.spaceKey.isPressed)
             {
                 m_playerRigidbody.velocity = new Vector3(m_playerRigidbody.velocity.x, 5f, m_playerRigidbody.velocity.z);
-                onGround                   = false;
+ onGround                   = false;
             }
         }
 
