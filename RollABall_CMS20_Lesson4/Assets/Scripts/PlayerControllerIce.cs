@@ -8,7 +8,7 @@ using UnityEngine.UI;
 using Debug = UnityEngine.Debug;
 using UnityEngine.SceneManagement;
 
-public class PlayerController : MonoBehaviour
+public class PlayerControllerIce : MonoBehaviour
 {
     private                  GameObject[] players;
     [SerializeField] private float        m_speed = 1f; //speed modifier
@@ -18,8 +18,9 @@ public class PlayerController : MonoBehaviour
     public                   RawImage     targetImage;
     private                  float        m_movementX, m_movementY; //input vector components
     public                   Slider       slider;
-    public                  float        lifes;
-    public                   float        maxLifes;
+     private float                  lifes; 
+    public LoadLevel script;
+    
     private                  int          m_collectablesTotalCount, m_collectablesCounter; //everything we need to count the given collectables
 
     private Stopwatch  m_stopwatch; //takes the time
@@ -30,11 +31,11 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+         script = GameObject.FindObjectOfType<LoadLevel>();
           Audio = GetComponent<AudioSource>();
        Audio.enabled = true;
         //DontDestroyOnLoad(gameObject);
-        slider.maxValue   = maxLifes;
-        lifes             = maxLifes;
+       
         onGround          = true;
         m_playerRigidbody = GetComponent<Rigidbody>(); //get the rigidbody component
 
@@ -57,8 +58,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+Debug.Log("Leben auf dem Eis: " + lifes);
+         lifes = script._lifes;  //  Update our score continuously.
         slider.value = lifes;
+        
 
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
@@ -122,7 +125,7 @@ public class PlayerController : MonoBehaviour
 void Awake()
 {
     //Load the saved score (this value will be saved even if you restart the app)
-    lifes = PlayerPrefs.GetInt("Lifes");
+    //lifes = PlayerPrefs.GetInt("Lifes");
 }
     private void OnTriggerEnter(Collider other) //executed when the player hits another collider (which is set to 'is trigger')
     {
