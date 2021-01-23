@@ -105,7 +105,7 @@ public class PlayerController : MonoBehaviour
             // if (Keyboard.current.spaceKey.isPressed)
             {
                 m_playerRigidbody.velocity = new Vector3(m_playerRigidbody.velocity.x, 5f, m_playerRigidbody.velocity.z);
-                onGround                   = false;
+ onGround                   = false;
             }
         }
 
