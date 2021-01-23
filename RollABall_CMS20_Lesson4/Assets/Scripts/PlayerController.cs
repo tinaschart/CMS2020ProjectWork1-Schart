@@ -32,7 +32,6 @@ public class PlayerController : MonoBehaviour
     {
           Audio = GetComponent<AudioSource>();
        Audio.enabled = true;
-        //DontDestroyOnLoad(gameObject);
         slider.maxValue   = maxLifes;
         lifes             = maxLifes;
         onGround          = true;
@@ -45,14 +44,14 @@ public class PlayerController : MonoBehaviour
         m_stopwatch = Stopwatch.StartNew(); //start the stopwatch
     }
 
-    // private void OnMove(InputValue inputValue)
-    // {
-    //     Vector2 movementVector = inputValue.Get<Vector2>(); //get the input
-    //
-    //     //split input vector in its two components
-    //     m_movementX = movementVector.x;
-    //     m_movementY = movementVector.y;
-    // }
+    private void OnMove(InputValue inputValue)
+    {
+        Vector2 movementVector = inputValue.Get<Vector2>(); //get the input
+    
+         //split input vector in its two components
+         m_movementX = movementVector.x;
+         m_movementY = movementVector.y;
+     }
 
     // Update is called once per frame
     void Update()
@@ -191,4 +190,10 @@ void Awake()
         UnityEditor.EditorApplication.ExitPlaymode(); //exits the playmode
 #endif
     }
+
+    public void OnMoveVector2(Vector2 touch)
+    {
+        throw new NotImplementedException();
+    }
 }
+

@@ -347,7 +347,7 @@ namespace extOSC
 			return false;
 		}
 
-		public static bool ToVector2(this OSCMessage message, out Vector2 value, bool force = false)
+		public static bool ToVector2(this OSCMessage message, out Vector2 value)
 		{
 			var values = message.FindValues(OSCValueType.Float);
 			if (values.Length >= 2)
@@ -355,28 +355,14 @@ namespace extOSC
 				var firstValue = values[0];
 				var secondValue = values[1];
 
-				value = new Vector2(firstValue.FloatValue, secondValue.FloatValue);
+				value = new Vector2(firstValue.FloatValue,secondValue.FloatValue*-1);
 
 				return true;
 			}
 
-			if (force)
-			{
-				if (message.ToVector3(out var vector3))
-				{
-					value = vector3;
-					return true;
-				}
-
-				if (message.ToVector4(out var vector4))
-				{
-					value = vector4;
-					return true;
-				}
-			}
-
 			value = Vector2.zero;
 			return false;
+
 		}
 
 		public static bool ToVector3(this OSCMessage message, out Vector3 value, bool force = false)
