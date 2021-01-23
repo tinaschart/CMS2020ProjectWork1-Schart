@@ -130,17 +130,14 @@ public class PlayerController : MonoBehaviour
         }
         else if (other.gameObject.CompareTag("Enemy")) //has the other gameobject the tag "Enemy" / game over state
         {
+            Debug.Log("Leben -1");
             lifes -= 1;
             if (lifes == 0)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
 
-            else if (other.gameObject.CompareTag("Bottlehealth"))
-            {
-                lifes += 1;
-                other.gameObject.SetActive(false);
-            }
+           
             // UnityEngine.Debug.Log("Game Over!");
             //gameOverText.SetActive(true);
 
@@ -148,6 +145,12 @@ public class PlayerController : MonoBehaviour
                         UnityEditor.EditorApplication.ExitPlaymode();
             #endif*/
         }
+         else if (other.gameObject.CompareTag("life"))
+         {
+                Debug.Log("Leben +1");
+                lifes += 1;
+                other.gameObject.SetActive(false);
+         }
     }
 
     public void OnCollisionEnter(Collision other)
