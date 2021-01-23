@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
         m_stopwatch = Stopwatch.StartNew(); //start the stopwatch
     }
 
-    private void OnMove(InputValue inputValue)
+   private void OnMove(InputValue inputValue)
     {
         Vector2 movementVector = inputValue.Get<Vector2>(); //get the input
     

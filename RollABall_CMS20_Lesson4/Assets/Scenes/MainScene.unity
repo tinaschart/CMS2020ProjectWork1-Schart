@@ -3409,6 +3409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Address: /*/*
   Receiver: {fileID: 648831060}
+  playerController: {fileID: 0}
 --- !u!114 &648831060
 MonoBehaviour:
   m_ObjectHideFlags: 0

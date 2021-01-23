@@ -6,9 +6,15 @@ using extOSC;
 public class OSCDummy : MonoBehaviour
 {
     public string Address = "/example/1";
+
     public OSCReceiver Receiver;
-    public PlayerController playerController; 
-    
+
+    public PlayerController playerController;
+
+    public GameObject phone;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,14 +24,33 @@ public class OSCDummy : MonoBehaviour
     private void ReceivedMessage(OSCMessage message)
     {
         Vector2 touch;
-        Debug.Log(message.ToVector2(out touch));
+        Quaternion rotation;
 
-        if (message.ToVector2(out touch) == true)
+        Vector3 tmp;
+
+        //Debug.Log(message.ToVector2Double(out touch));
+
+
+        if(message.ToQuaternion(out rotation))
         {
-            playerController.OnMoveVector2(touch); 
-            Debug.Log(touch);
+            tmp = rotation.eulerAngles;
+
+
+            phone.transform.rotation = Quaternion.Euler(tmp.x, -tmp.z, tmp.y);
+
+
+            Debug.Log(rotation);
+        }
+
+
+        if(message.ToVector2(out touch) == true)
+        {
+            playerController.OnMoveVector2(touch);
+            //Debug.Log(touch);
         }
 
         //Debug.LogFormat("Received: {0}", message);
     }
+
+
 }
