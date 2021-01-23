@@ -12,13 +12,11 @@ public class LoadLevel : MonoBehaviour
 
     void Start()
     {
-            script = GameObject.FindObjectOfType<PlayerController>();
-
-
+        script = GameObject.FindObjectOfType<PlayerController>();
     }
      void Update()
      {
-         _lifes = script.lifes;  //  Update our score continuously.
+        //_lifes = script.lifes;  //  Update our score continuously.
      }
     private void OnTriggerEnter(Collider other)
     {
@@ -26,8 +24,8 @@ public class LoadLevel : MonoBehaviour
         {
             
             SceneManager.LoadScene(m_leveLname);
-            Debug.Log("Leben" + _lifes);
-            slider.value = _lifes;
+           // Debug.Log("Leben" + _lifes);
+            //slider.value = _lifes;
 
         }
            

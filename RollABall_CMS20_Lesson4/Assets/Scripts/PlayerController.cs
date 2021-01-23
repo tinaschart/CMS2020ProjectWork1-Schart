@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     public                   RawImage     targetImage;
     private                  float        m_movementX, m_movementY; //input vector components
     public                   Slider       slider;
-    public                  float        lifes;
+    public                   static           float        lifes;
     public                   float        maxLifes;
     private                  int          m_collectablesTotalCount, m_collectablesCounter; //everything we need to count the given collectables
 

@@ -18,7 +18,7 @@ public class PlayerControllerIce : MonoBehaviour
     public                   RawImage     targetImage;
     private                  float        m_movementX, m_movementY; //input vector components
     public                   Slider       slider;
-     private float                  lifes; 
+     private static float                  lifes; 
     public LoadLevel script;
     
     private                  int          m_collectablesTotalCount, m_collectablesCounter; //everything we need to count the given collectables
