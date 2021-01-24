@@ -22,6 +22,7 @@ public class LoadLevel : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            //Data.Health = _lifes;
             
             SceneManager.LoadScene(m_leveLname);
            // Debug.Log("Leben" + _lifes);

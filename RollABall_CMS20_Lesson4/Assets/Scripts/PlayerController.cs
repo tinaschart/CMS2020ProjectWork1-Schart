@@ -28,6 +28,9 @@ public class PlayerController : MonoBehaviour
     public  GameObject gameOverText;
     private AudioSource Audio;
 
+    private float moveHorizontal;
+    private float moveVertical;
+
     private void Start()
     {
           Audio = GetComponent<AudioSource>();
@@ -43,15 +46,6 @@ public class PlayerController : MonoBehaviour
 
         m_stopwatch = Stopwatch.StartNew(); //start the stopwatch
     }
-
-   private void OnMove(InputValue inputValue)
-    {
-        Vector2 movementVector = inputValue.Get<Vector2>(); //get the input
-    
-         //split input vector in its two components
-         m_movementX = movementVector.x;
-         m_movementY = movementVector.y;
-     }
 
     // Update is called once per frame
     void Update()
@@ -90,8 +84,8 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical   = Input.GetAxis("Vertical");
+        moveHorizontal = Input.GetAxis("Horizontal");
+        moveVertical   = Input.GetAxis("Vertical");
 
         Vector3 movement = new Vector3(moveHorizontal, 0, moveVertical);
         m_playerRigidbody.AddForce(movement * m_speed);
@@ -193,7 +187,8 @@ void Awake()
 
     public void OnMoveVector2(Vector2 touch)
     {
-        throw new NotImplementedException();
+        moveHorizontal = touch.x;
+        moveVertical   = touch.y;
     }
 }
 
