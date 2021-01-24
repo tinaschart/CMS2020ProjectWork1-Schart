@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
 
-        slider.value = lifes;
+        slider.value = Data.Health;
 
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
@@ -145,6 +145,8 @@ void Awake()
         else if (other.gameObject.CompareTag("Enemy")) //has the other gameobject the tag "Enemy" / game over state
         {
             lifes -= 1;
+            Data.Health = lifes;
+             Debug.Log("Leben" + Data.Health);
             if (lifes == 0)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -162,7 +164,9 @@ void Awake()
             {
                 if(lifes <=2)
                 {
+                    
                 lifes += 1;
+                Data.Health = lifes;
                 other.gameObject.SetActive(false);
                 Debug.Log(lifes);
                 }

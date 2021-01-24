@@ -1,4 +1,4 @@
 ﻿public static class Data
 {
-    public static float Health;
+    public static float Health = 3;
 }

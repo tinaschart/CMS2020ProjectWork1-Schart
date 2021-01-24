@@ -18951,6 +18951,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Score
       objectReference: {fileID: 0}
+    - target: {fileID: 6145904973351736716, guid: 96fe9c96d29934068bc34ee6917c7a39,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 699
+      objectReference: {fileID: 0}
+    - target: {fileID: 6145904973351736716, guid: 96fe9c96d29934068bc34ee6917c7a39,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 338
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96fe9c96d29934068bc34ee6917c7a39, type: 3}
 --- !u!1001 &6171163379975490360
