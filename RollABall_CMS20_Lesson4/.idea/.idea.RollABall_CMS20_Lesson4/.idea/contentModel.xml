@@ -329,6 +329,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CameraController.cs" t="Include" />
+          <e p="Data.cs" t="Include" />
           <e p="EndGame.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />

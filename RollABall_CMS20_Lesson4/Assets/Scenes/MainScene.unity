@@ -3409,7 +3409,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Address: /*/*
   Receiver: {fileID: 648831060}
-  playerController: {fileID: 0}
+  playerController: {fileID: 1050116461}
+  phone: {fileID: 0}
 --- !u!114 &648831060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5458,6 +5459,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1306041949903567665}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1050116461 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1306041950265489987, guid: 029282ff232ac4b338f38e6076e9c457,
+    type: 3}
+  m_PrefabInstance: {fileID: 1306041949903567665}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050116459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cf260ae9d1c46b4fb57755f18130045, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &1050116467
 AudioSource:
   m_ObjectHideFlags: 0
