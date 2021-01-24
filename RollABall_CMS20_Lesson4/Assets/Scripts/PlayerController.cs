@@ -170,6 +170,12 @@ void Awake()
                   other.gameObject.SetActive(false);  
                 }
             }
+            else if (other.gameObject.CompareTag("frozen"))
+            {
+                Debug.Log("Speed: " + m_speed);
+               m_speed = m_speed * 2f;
+               
+            }
     }
 
     public void OnCollisionEnter(Collision other)

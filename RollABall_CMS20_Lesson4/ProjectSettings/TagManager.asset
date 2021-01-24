@@ -13,6 +13,8 @@ TagManager:
   - Fire
   - life
   - ice
+  - Bottlehealth
+  - frozen
   layers:
   - Default
   - TransparentFX
