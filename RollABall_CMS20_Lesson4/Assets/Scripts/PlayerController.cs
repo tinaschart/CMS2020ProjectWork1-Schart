@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
 
         m_collectablesTotalCount = m_collectablesCounter = GameObject.FindGameObjectsWithTag("Collectable").Length; //find all gameobjects in the scene which are tagged with "Collectable" and count them via Length property 
         TDcam.targetTexture      = (RenderTexture) targetImage.texture;
-        scoreText.text           = "collectables: " + m_collectablesTotalCount.ToString() + " / " + m_collectablesTotalCount.ToString();
+        scoreText.text           = "collectables: " + Data.Coins.ToString() + " / 15" ;
 
         m_stopwatch = Stopwatch.StartNew(); //start the stopwatch
     }
@@ -126,9 +126,9 @@ void Awake()
         {
             other.gameObject.SetActive(false); //set the hit collectable inactive
 
-            m_collectablesCounter--; //count down the remaining collectables
-            scoreText.text = "collectables: " + m_collectablesCounter.ToString() + " / " + m_collectablesTotalCount.ToString();
-            if (m_collectablesCounter == 0) //have we found all collectables? if so we won!
+            Data.Coins++; //count down the remaining collectables
+            scoreText.text = "collectables: " + Data.Coins.ToString() + " /  15";
+            /*if (m_collectablesCounter == 0) //have we found all collectables? if so we won!
             {
                 UnityEngine.Debug.Log("Congratulations. You successfully outrun the Enemies!");
                 gameOverText.SetActive(true);
@@ -140,7 +140,7 @@ void Awake()
             else
             {
                 UnityEngine.Debug.Log($"You've already found {m_collectablesTotalCount - m_collectablesCounter} of {m_collectablesTotalCount} collectables!");
-            }
+            }*/
         }
         else if (other.gameObject.CompareTag("Enemy")) //has the other gameobject the tag "Enemy" / game over state
         {
@@ -150,6 +150,7 @@ void Awake()
             if (lifes == 0)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                Data.Health = 3;
             }
 
             
@@ -162,24 +163,19 @@ void Awake()
         }
         else if (other.gameObject.CompareTag("life"))
             {
-                if(lifes <=2)
+                if(Data.Health <=2)
                 {
                     
-                lifes += 1;
-                Data.Health = lifes;
+                Data.Health += 1;
+               
                 other.gameObject.SetActive(false);
-                Debug.Log(lifes);
+                Debug.Log("LIFES: " + lifes);
                 }
                 else{
                   other.gameObject.SetActive(false);  
                 }
             }
-            else if (other.gameObject.CompareTag("frozen"))
-            {
-                Debug.Log("Speed: " + m_speed);
-               m_speed = m_speed * 2f;
-               
-            }
+           
     }
 
     public void OnCollisionEnter(Collision other)
@@ -188,6 +184,13 @@ void Awake()
         {
             onGround = true;
         }
+         else if (other.gameObject.CompareTag("frozen"))
+            {
+                
+               m_speed = m_speed * 1.3f;
+               Debug.Log("Speed: " + m_speed);
+               
+            }
     }
 
     private IEnumerator waitALittleBit()
