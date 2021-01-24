@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf430d52-2020-4185-991a-2aa461a72453" name="Default Changelist" comment="" />
+    <list default="true" id="bf430d52-2020-4185-991a-2aa461a72453" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollABall_CMS20_Lesson4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OSCDummy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OSCDummy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extOSC/logs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/extOSC/logs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +50,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EndGame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/extOSC/Scripts/OSCUtilities.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OSCDummy.cs" />
       </list>
     </option>
   </component>
@@ -115,6 +123,9 @@
       <workItem from="1611399940651" duration="398000" />
       <workItem from="1611406617819" duration="287000" />
       <workItem from="1611412169695" duration="263000" />
+      <workItem from="1611416334086" duration="5626000" />
+      <workItem from="1611424487790" duration="30000" />
+      <workItem from="1611424630880" duration="908000" />
     </task>
     <servers />
   </component>
