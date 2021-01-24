@@ -84,8 +84,11 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        moveHorizontal = Input.GetAxis("Horizontal");
-        moveVertical   = Input.GetAxis("Vertical");
+        if (Input.GetAxis("Horizontal") != 0f || Input.GetAxis("Vertical") != 0f)
+        {
+            moveHorizontal = Input.GetAxis("Horizontal");
+            moveVertical   = Input.GetAxis("Vertical");
+        }
 
         Vector3 movement = new Vector3(moveHorizontal, 0, moveVertical);
         m_playerRigidbody.AddForce(movement * m_speed);
